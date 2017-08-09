@@ -1,0 +1,22 @@
+/* REVISÃO
+	
+Exercici 4 slide 1
+
+*/
+
+#include <stdlib.h>
+#include <stdio.h>
+#include <locale.h>
+#include <math.h>
+
+int main(){
+	setlocale (LC_ALL, "Portuguese");
+	int v, At;
+	printf("Digite biluga: ", v);
+	scanf("%d",&v);
+	printf("Digite bilada: ", At);
+	scanf("%d", &At);
+	v=v+At;
+	printf("%d", v);
+	 
+}

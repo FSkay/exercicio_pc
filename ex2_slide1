@@ -1,0 +1,20 @@
+/* REVISÃO
+	
+Exercici 2 slide 1
+
+*/
+
+#include <stdlib.h>
+#include <stdio.h>
+#include <locale.h>
+
+int main(){
+	setlocale (LC_ALL, "Portuguese");
+	float K, M;
+	printf("Digite uma velociade em Jm/h:\n");
+	scanf("%f", &K);
+	M=K/3.6;
+	printf("A velocidade em metros por segundo, %.2f", M); 
+	system("pause");
+	return 0;
+}

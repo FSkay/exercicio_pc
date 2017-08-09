@@ -1,0 +1,21 @@
+/* REVISÃO
+	
+Exercici 3 slide 1
+
+*/
+
+#include <stdlib.h>
+#include <stdio.h>
+#include <locale.h>
+#include <math.h>
+
+int main(){
+	setlocale (LC_ALL, "Portuguese");
+	int B, h, a; //B=Base, h=Altura, a=area
+	printf("Digite o tamanho da base:");
+	scanf("%d", &B);
+	printf("Digite a altura:");
+	scanf("%d", &h);
+	a=B*h/2;
+	printf("A porra é: %d", a);
+}

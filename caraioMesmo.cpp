@@ -1,17 +1,17 @@
 /*
 |---------------------------------------------------------------------------------------------|	
 |	 Fazer um programa em C que apresente a idade de uma pessoa em Anos, Meses e Dias.
-|	Por exemplo, o usuário informa a data de nascimento e a data atual e o sistema deve apresentar uma saída do tipo:
+|	Por exemplo, o usuÃ¡rio informa a data de nascimento e a data atual e o sistema deve apresentar uma saÃ­da do tipo:
 |	28 anos, 08 meses e 12 dias
 |	Regras:
-|	1) Não é permitido utilizar as funções de data do C (as outras funções podem ser utilizadas)
+|	1) NÃ£o Ã© permitido utilizar as funÃ§Ãµes de data do C (as outras funÃ§Ãµes podem ser utilizadas)
 |	2) Considerar anos Bissextos
 |	3) O programa deve compilar
-|	4) Cada aluno(a) deverá apresentar e explicar o programa para o Professor                 |
-|	5) Os resultados podem ser conferidos em (respeitando a notação):
+|	4) Cada aluno(a) deverÃ¡ apresentar e explicar o programa para o Professor                 |
+|	5) Os resultados podem ser conferidos em (respeitando a notaÃ§Ã£o):
 |	http://www.convertunits.com/dates/
 |	http://www.timeanddate.com/date/duration.html                                             |
-|	6) Código bem indentado e bons nomes de funções e variáveis valem pontuação extra.        |
+|	6) CÃ³digo bem indentado e bons nomes de funÃ§Ãµes e variÃ¡veis valem pontuaÃ§Ã£o extra.        |
 |	                                                                                          |
 |	                                                                                          |
 |	Aluno F.Menegat                                                                           |
@@ -22,33 +22,20 @@
 #include<stdlib.h>
 #include<locale.h>
 
-//-----FUNÇÕES-----
-	
- int calculoIdade(int N1, N2){
- 	
- 	
- 	
- 	
- }
+//-----FUNÃ‡Ã•ES-----
 	
 
-//-----CHAMADAS DAS FUNÇÕES------
+	
 
-//Prototipo de função bissesto
+//-----CHAMADAS DAS FUNÃ‡Ã•ES------
+
+//Prototipo de funÃ§Ã£o bissesto
 float bissexto (int ano);
 
-//Prototipo de função calculo de idade
+//Prototipo de funÃ§Ã£o calculo de idade
 int calculoIdade (int N1, int N2);
 
 
-// Estrutura ano
-struct ano {
-	int ano; 
-	int mes;
-	int dia;
-	int idade;
-};
-ano 
 
 //Variaveis
 int anoNasc
@@ -59,7 +46,7 @@ int main (){
 	ano Ano;
 	
 	
-	printf("\nDigite dia, mês e ano de nascimento: \n");
+	printf("\nDigite dia, mÃªs e ano de nascimento: \n");
 	scanf("%d %d %d", Ano.ano, Ano.dia, Ano.mes);
 	
 	
